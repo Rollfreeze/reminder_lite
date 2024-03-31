@@ -11,6 +11,7 @@
 		5D28CCAE2BB96582005A199A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D28CCAD2BB96582005A199A /* ContentView.swift */; };
 		5D28CCB02BB96583005A199A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D28CCAF2BB96583005A199A /* Assets.xcassets */; };
 		5D28CCB32BB96583005A199A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D28CCB22BB96583005A199A /* Preview Assets.xcassets */; };
+		5D7F9E232BB98342004A5DD3 /* FilterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F9E222BB98342004A5DD3 /* FilterBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5D28CCAD2BB96582005A199A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D28CCAF2BB96583005A199A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D28CCB22BB96583005A199A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D7F9E222BB98342004A5DD3 /* FilterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5D28CCAB2BB96582005A199A /* reminder_liteApp.swift */,
 				5D28CCAD2BB96582005A199A /* ContentView.swift */,
+				5D7F9E222BB98342004A5DD3 /* FilterBox.swift */,
 				5D28CCAF2BB96583005A199A /* Assets.xcassets */,
 				5D28CCB12BB96583005A199A /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D28CCAE2BB96582005A199A /* ContentView.swift in Sources */,
+				5D7F9E232BB98342004A5DD3 /* FilterBox.swift in Sources */,
 				5D28CCAC2BB96582005A199A /* reminder_liteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
