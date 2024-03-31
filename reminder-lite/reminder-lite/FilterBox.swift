@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct FilterBox: View {
+    let itemsAmount: Int
+    init(_ itemsAmount: Int) {
+        self.itemsAmount = itemsAmount
+    }
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 12)
             .fill(Color.white)
@@ -21,7 +26,7 @@ struct FilterBox: View {
                                     .frame(width: .infinity)
                                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                                 Spacer()
-                                Text("3")
+                                Text("\(itemsAmount)")
                                     .font(.title)
                                     .bold()
                             }

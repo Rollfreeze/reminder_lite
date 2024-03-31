@@ -27,8 +27,8 @@ struct Home: View {
     var body: some View {
         VStack {
             HStack {
-                FilterBox()
-                FilterBox()
+                FilterBox(1)
+                FilterBox(5)
             }
             .padding()
             Spacer()
